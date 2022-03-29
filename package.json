@@ -1,11 +1,12 @@
 {
   "name": "template-project",
-  "private": true,
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "vue": "^3.2.31"
