@@ -12,8 +12,29 @@ import HelloWorld from './components/HelloWorld.vue'
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  margin: 1px;
   color: #2c3e50;
   margin-top: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.test {
+  margin: auto;
+  color: #bbb;
+  position: relative;
+  padding: 0;
+
+  &-box {
+    @apply h-full;
+
+    text-align: center;
+    color: #000;
+    position: fixed;
+  }
+
+  .a {
+    padding: 0;
+  }
 }
 </style>

@@ -1,0 +1,16 @@
+a {
+  color: #42b983;
+}
+
+label {
+  margin: 0 0.5em;
+  padding: 10px;
+  font-weight: bold;
+}
+
+code {
+  padding: 30px 40px;
+  border-radius: 4px;
+  background-color: #eee;
+  color: #304455;
+}
